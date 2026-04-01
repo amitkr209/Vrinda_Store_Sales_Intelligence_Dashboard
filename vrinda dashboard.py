@@ -49,6 +49,9 @@ df.columns = df.columns.str.strip()
 # Extract month number from 'Date' column and store in new 'Month' column
 df['Month'] = df['Date'].dt.month
 
+# Extract quater number from 'Date' column and store in new 'Quater' column
+df['Quater'] = pd.to_datetime(df['Date']).dt.quarter
+
 # Categorize ages into groups: Senior, Young, Adult
 df['Age Group'] = np.where(df['Age'] > 50, 'Senior',
                            np.where(df['Age'] < 30, 'Young', 'Adult'))
@@ -58,7 +61,7 @@ app = Dash(__name__)
 
 app.layout = html.Div(children=[
     html.H1("Vrinda Store Sales Dashboard", style={'textSize':50, 'textAlign':'center', 'color':'#D8A720D8'}),
-    html.P("Sales for Year 2022", style={'textAlign':'center', 'textSize':30}),
+    html.P("Sales for Year 2022", style={'textAlign':'center'}),
     html.Br(),
     html.Div([
         "Quater:",
@@ -70,25 +73,25 @@ app.layout = html.Div(children=[
                                 {'label':'Oct-Dec', 'value':4}],
                      value = 'all',
                      clearable=False,
-                     style = {'width':'135px', 'height':'25px', 'fontSize':20, 'margin':'0 auto'})
-    ], style = {'textAlign':'center', 'textSize':35}),
+                     style = {'width':'135px', 'height':'25px', 'margin':'0 auto'})
+    ], style = {'textAlign':'center'}),
     html.Br(),
     html.Div([
         dcc.Graph(id = "total_revenue",
                   config = {'displayModeBar':False},
-                  style = {'width':'20%', 'height':'130px'}),
+                  style = {'width':'20%', 'height':'120px'}),
         dcc.Graph(id = "quantity_sold",
                   config = {'displayModeBar':False},
-                  style = {'width':'20%', 'height':'130px'}),
+                  style = {'width':'20%', 'height':'120px'}),
         dcc.Graph(id = "total_orders",
                   config = {'displayModeBar':False},
-                  style = {'width':'20%', 'height':'130px'}),
+                  style = {'width':'20%', 'height':'120px'}),
         dcc.Graph(id = "aov",
                   config = {'displayModeBar':False},
-                  style = {'width':'20%', 'height':'130px'}),
+                  style = {'width':'20%', 'height':'120px'}),
         dcc.Graph(id = "total_unique_cust",
                   config = {'displayModeBar':False},
-                  style = {'width':'20%', 'height':'130px'})
+                  style = {'width':'20%', 'height':'120px'})
     ], style={'display':'flex'}),
     html.Br(),
     html.Div([
@@ -302,4 +305,4 @@ def get_graph(quater):
     
 
 if __name__ == '__main__':
-    app.run(port = '8060', host = '127.0.0.1', debug=True)
+    app.run(debug=True)
