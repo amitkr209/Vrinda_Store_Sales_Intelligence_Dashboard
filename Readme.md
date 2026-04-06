@@ -1,4 +1,4 @@
-# 📊 Vrinda Store Sales Dashboard
+# 📊 Vrinda Store Sales Intelligence Dashboard
 
 > **Freelance Data Analytics Project** delivering end-to-end business intelligence solutions for Vrinda E-Commerce Store.
 
@@ -52,7 +52,9 @@ This project demonstrates a complete data analytics workflow — from data acqui
 
 This project follows a complete data analysis pipeline:
 
-**Step-by-Step Process:**
+<img alt="Workflow Image" src="/Images/Project Workflow.png" height="400" align="left ">
+
+#### Step-by-Step Process
 
 1. **Data Ingestion & Cleaning**
    - Loaded Vrinda Store sales dataset (31K+ transactions)
@@ -221,6 +223,8 @@ This project is organized into distinct professional releases to provide tailore
 * **Technical Value**: Demonstrates a complete Python-based data pipeline and visualization architecture.
 
 ### 🔄 [Tableau Prep ETL Pipeline (v1.0.0-prep)]()
+
+<img alt="Workflow Image" src="/Images/Tableau Flow Image.png" height="400" align="left ">
 
 * **Target Audience**: Data engineers and ETL specialists focused on scalable data transformation.
 * **Purpose**: Transparent, reusable data cleaning and transformation pipeline.
@@ -546,8 +550,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![Dash](https://img.shields.io/badge/Dash-2.7+-purple.svg)
 ![Tableau](https://img.shields.io/badge/Tableau-Latest-yellow.svg)
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Vrinda%20Store%20Sales%20Dashboard-black?logo=github&logoColor=white)]([https://github.com/amitkr209/Vrinda-Store-Sales-Dashboard](https://github.com/amitkr209/Vrinda_Store_Sales_Intelligence_Dashboard))
 [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/amitkumar209/vrinda-store-sales-data)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Vrinda%20Store%20Sales%20Dashboard-black?logo=github&logoColor=white)]([https://github.com/amitkr209/Vrinda-Store-Sales-Dashboard](https://github.com/amitkr209/Vrinda_Store_Sales_Python_Dashboard))
+
 
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 
