@@ -204,6 +204,7 @@ This project is organized into distinct professional releases to provide tailore
 
 ### 📊 [Tableau Business Intelligence Dashboard (v1.0.0-tableau)](https://public.tableau.com/app/profile/amitkumar209/viz/VrindaStoreSalesDashboard/Dashboard1)
 
+* **Release Link**: [**Click Here**](https://github.com/amitkr209/Vrinda_Store_Sales_Intelligence_Dashboard/releases/tag/v1.0.0-tableau)
 * **Target Audience**: Business owners and executive stakeholders focused on high-level performance.
 * **Live Access**: Available on [Tableau Public](https://public.tableau.com/app/profile/amitkr209/viz/VrindaStoreDashboard/VrindaDashboard) for instant online access (no installation required)
 * **Core Metrics**: Immediate visibility into Total Revenue (₹21.2M), Total Orders (31K), and Quantity (31.2K units).
@@ -214,7 +215,7 @@ This project is organized into distinct professional releases to provide tailore
   - 📥 Tableau Desktop workbook (.twb file) for local exploration
 * **Accessibility**: Share dashboard link with stakeholders without requiring Tableau licenses
 
-### 🌐 [Interactive Python Web Analytics (v2.0.0-python)]()
+### 🌐 [Interactive Python Web Analytics (v2.0.0-python)](https://github.com/amitkr209/Vrinda_Store_Sales_Intelligence_Dashboard/releases/tag/v2.0.0-python)
 
 * **Target Audience**: Data analysts and developers requiring a scalable, code-driven analytics environment.
 * **Technical Stack**: Fully reactive web application built with **Dash**, **Plotly**, and **Pandas**.
@@ -222,7 +223,7 @@ This project is organized into distinct professional releases to provide tailore
 * **Dynamic Interactivity**: Advanced Dash callbacks enabling real-time filtering by Quarter across all 11 visuals.
 * **Technical Value**: Demonstrates a complete Python-based data pipeline and visualization architecture.
 
-### 🔄 [Tableau Prep ETL Pipeline (v1.0.0-prep)]()
+### 🔄 [Tableau Prep ETL Pipeline (v1.0.0-prep)](https://github.com/amitkr209/Vrinda_Store_Sales_Intelligence_Dashboard/releases/tag/v1.0.0-prep)
 
 <img alt="Workflow Image" src="/Images/Tableau Flow Image.png" height="400" align="left ">
 
