@@ -220,7 +220,7 @@ This project is organized into distinct professional releases to provide tailore
 * **Dynamic Interactivity**: Advanced Dash callbacks enabling real-time filtering by Quarter across all 11 visuals.
 * **Technical Value**: Demonstrates a complete Python-based data pipeline and visualization architecture.
 
-### 🔄 [Tableau Prep ETL Pipeline (v1.0.0-prep)]
+### 🔄 [Tableau Prep ETL Pipeline (v1.0.0-prep)]()
 
 * **Target Audience**: Data engineers and ETL specialists focused on scalable data transformation.
 * **Purpose**: Transparent, reusable data cleaning and transformation pipeline.
@@ -402,9 +402,8 @@ python -m pip install -r requirements.txt
 
 🎯 **Fastest way to explore the dashboard:**
 
-```
+
 👉 [Click here to open the live Tableau Public dashboard](https://public.tableau.com/app/profile/amitkr209/viz/VrindaStoreDashboard/VrindaDashboard)
-```
 
 **Benefits:**
 
@@ -548,6 +547,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![Tableau](https://img.shields.io/badge/Tableau-Latest-yellow.svg)
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/amitkumar209/vrinda-store-sales-data)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Vrinda%20Store%20Sales%20Dashboard-black?logo=github&logoColor=white)]([https://github.com/amitkr209/Vrinda-Store-Sales-Dashboard](https://github.com/amitkr209/Vrinda_Store_Sales_Python_Dashboard))
 
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 
