@@ -402,9 +402,8 @@ python -m pip install -r requirements.txt
 
 🎯 **Fastest way to explore the dashboard:**
 
-```
-👉 [Click here to open the live Tableau Public dashboard](https://public.tableau.com/app/profile/amitkr209/viz/VrindaStoreDashboard/VrindaDashboard)
-```
+
+👉 [**Click here to open the live Tableau Public dashboard**](https://public.tableau.com/app/profile/amitkr209/viz/VrindaStoreDashboard/VrindaDashboard)
 
 **Benefits:**
 
