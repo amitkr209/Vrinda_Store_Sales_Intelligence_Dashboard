@@ -42,9 +42,11 @@ This project demonstrates a complete data analytics workflow — from data acqui
 
 - **🌟 Tableau Public Dashboard** (Live & Interactive): [Explore on Tableau Public](https://public.tableau.com/app/profile/amitkr209/viz/VrindaStoreDashboard/VrindaDashboard) ← **Click to interact with the live dashboard**
   
-- **Interactive Python Dashboard**: [Watch the Dashboard in Action](/images/Vrinda_Sales_Interactive_Dashboard.gif)
-- **Tableau Desktop**: [View Dashboard Preview](/images/Tableau_Dashboard.gif)
-- **Static Dashboard**: [Executive Summary](/images/Vrinda_Store_Static_Dashboard.png)
+- **Interactive Python Dashboard**: [Watch the Dashboard in Action](/Images/Vrinda%20Sales%20Interactive%20Dashboard.gif)
+
+- **Tableau Desktop**: [View Dashboard Preview](/Images/Tableau%20Dashboard.gif)
+
+- **Static Dashboard**: [Executive Summary](/Images/Vrinda%20Store%20Static%20Dashboard.png)
 
 ## 🚀 Project Workflow
 
@@ -142,7 +144,7 @@ Professional business intelligence dashboard with multi-dimensional filtering an
 
 **🌟 [ACCESS LIVE DASHBOARD ON TABLEAU PUBLIC](https://public.tableau.com/app/profile/amitkr209/viz/VrindaStoreDashboard/VrindaDashboard)** ← Click here to explore the interactive dashboard online!
 
-![Tableau Dashboard](/images/Tableau_Dashboard.gif)
+![Tableau Dashboard](/Images/Tableau%20Dashboard.gif)
 
 **Key Features:**
 
@@ -159,7 +161,7 @@ Professional business intelligence dashboard with multi-dimensional filtering an
 
 Web-based interactive dashboard with dynamic filtering and responsive design.
 
-![Python Dashboard](/images/Vrinda_Sales_Interactive_Dashboard.gif)
+![Python Dashboard](/Images/Vrinda%20Sales%20Interactive%20Dashboard.gif)
 
 **Key Features:**
 
@@ -183,7 +185,7 @@ Web-based interactive dashboard with dynamic filtering and responsive design.
 
 High-level overview dashboard for executive reporting and presentations.
 
-![Static Dashboard](/images/Vrinda_Store_Static_Dashboard.png)
+![Static Dashboard](/Images/Vrinda%20Store%20Static%20Dashboard.png)
 
 **Key Components:**
 
